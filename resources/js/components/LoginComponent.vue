@@ -93,7 +93,7 @@
 
             const access_token = localStorage.getItem('ugss_token')
             if( access_token != "" && access_token != null ) {
-                this.$router.push('/dashboard')
+                this.$router.push('/admin/dashboard')
             }
 
         }
